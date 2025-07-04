@@ -25,7 +25,6 @@ add1.addEventListener('click',()=>
     if(inp1>100 || inp2 >100)
         {
             document.getElementById("rs").style.width = "500px"
-            document.getElementById("rs").style.marginLeft = "400px"
 
 
             dis = Number(inp1 + inp2)
@@ -41,7 +40,7 @@ substract.addEventListener('click',()=>
         if(inp1>100 || inp2 >100)
             {
                 document.getElementById("rs").style.width = "500px"
-                document.getElementById("rs").style.marginLeft = "400px"
+            
 
 
                 dis = Number(inp1 - inp2)
@@ -58,7 +57,6 @@ substract.addEventListener('click',()=>
             if(inp1>100 || inp2 >100)
             {
                 document.getElementById("rs").style.width = "500px"
-                document.getElementById("rs").style.marginLeft = "400px"
 
 
                 dis = Number(inp1 * inp2)
@@ -77,7 +75,6 @@ substract.addEventListener('click',()=>
             if(inp1>100 || inp2 >100)
             {
                 document.getElementById("rs").style.width = "500px"
-                document.getElementById("rs").style.marginLeft = "400px"
 
             
                 dis = Number(inp1 / inp2)
