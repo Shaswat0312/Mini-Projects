@@ -23,7 +23,7 @@ Projects may include work using:
 
 |  📌 Project Name            | 📝 Description                        | ⚙️ Stack                    | 🌍 Live Demo                            |
 |----------------------------|----------------------------------------|-----------------------------|------------------------------------------|
-| Arithmetic Calculator      | A stylish, responsive calculator that performs basic operations like addition, subtraction, multiplication, division, and GCD. | HTML, CSS, JavaScript       | (https://arithmeticcalculator.vercel.app/) |
+| Arithmetic Calculator      | A stylish, responsive calculator that performs basic operations like addition, subtraction, multiplication, division, and GCD. | HTML, CSS, JavaScript       | [Arithmetic-Calculator](https://arithmeticcalculator.vercel.app/) |
 
 
 
