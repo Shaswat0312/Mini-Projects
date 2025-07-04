@@ -109,9 +109,11 @@ substract.addEventListener('click',()=>
             
            inputField.value = '';
            inputField2.value = '';
-           result.innerHTML = '';
+           result.innerHTML = '\u00A0';
             document.getElementById("rs").style.width = "200px"
-             document.getElementById("rs").style.marginLeft = "550px"
+            document.getElementById("rs").style.marginLeft = "auto";
+            document.getElementById("rs").style.marginRight = "auto";
+
 
         }
     )
