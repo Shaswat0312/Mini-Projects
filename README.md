@@ -21,9 +21,10 @@ Projects may include work using:
 
 ##  📚  Projects
 
-|  📌 Project Name | 📝 Description | ⚙️ Stack | 🌍 Live Demo |
-|--------|----------------|----------|--------------|
-| *(To be added)* |                |          |              |
+|  📌 Project Name            | 📝 Description                        | ⚙️ Stack                    | 🌍 Live Demo                            |
+|----------------------------|----------------------------------------|-----------------------------|------------------------------------------|
+| Arithmetic Calculator      | A stylish, responsive calculator that performs basic operations like addition, subtraction, multiplication, division, and GCD. | HTML, CSS, JavaScript       | (https://arithmeticcalculator.vercel.app/) |
+
 
 
 ---
