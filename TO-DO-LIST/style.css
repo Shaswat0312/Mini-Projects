@@ -1,0 +1,146 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #f1f1f1;
+}
+
+.head {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #00ffc8;
+  text-shadow: 0 0 8px #00ffc8;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outerbox {
+  border: 2px solid rgba(0, 255, 200, 0.4);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 25px rgba(0, 255, 200, 0.1);
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 150px;
+}
+
+/* Input + Button container */
+.uperr {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.input {
+  flex: 1 1 60%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #00ffc8;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 1rem;
+  min-width: 150px;
+}
+
+.ADD {
+  flex: 1 1 35%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #00ffc8;
+  color: #000;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00ffc8;
+  transition: all 0.3s ease;
+}
+.ADD:hover {
+  background-color: #00cba9;
+}
+
+/* Task List */
+.task {
+  margin-top: 20px;
+}
+.task li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #00ffc8;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  word-break: break-word;
+  color: #fff;
+}
+
+.task button {
+  padding: 6px 10px;
+  background-color: #ff3860;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-left: 10px;
+  box-shadow: 0 0 8px #ff3860;
+}
+.task button:hover {
+  background-color: #ff0033;
+}
+
+.task .completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Media Query */
+@media (max-width: 600px) {
+  .head {
+    font-size: 1.8rem;
+  }
+
+  .outerbox {
+    padding: 15px;
+  }
+
+  .uperr {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .input,
+  .ADD {
+    width: 100%;
+    min-width: unset;
+    margin: 5px 0;
+  }
+
+  .task li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .task button {
+    width: 100%;
+    margin-top: 8px;
+    font-size: 0.95rem;
+  }
+}
