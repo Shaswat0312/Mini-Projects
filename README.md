@@ -23,8 +23,8 @@ Projects may include work using:
 
 | 📌 **Project Name**         | 📝 **Description**                                                                 | ⚙️ **Tech Stack**         | 🌍 **Live Demo**                                                |
 |----------------------------|-----------------------------------------------------------------------------------|---------------------------|-----------------------------------------------------------------|
-| Arithmetic Calculator      | A modern, responsive calculator supporting basic math operations including GCD. | HTML, CSS, JavaScript     | [View Live](https://arithmeticcalculator.vercel.app/)          |
-| To-Do List                 | A sleek and interactive task manager with responsive UI and dynamic task handling. | HTML, CSS, JavaScript     | [View Live](https://wonderful-tarsier-c79011.netlify.app/)            |
+| Arithmetic Calculator      | A modern, responsive calculator supporting basic math operations including GCD. | HTML, CSS, JavaScript     | [Arithmetic-Calculator](https://arithmeticcalculator.vercel.app/)          |
+| To-Do List                 | A sleek and interactive task manager with responsive UI and dynamic task handling. | HTML, CSS, JavaScript     | [To-Do-List](https://wonderful-tarsier-c79011.netlify.app/)            |
 
 
 
