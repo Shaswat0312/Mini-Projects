@@ -25,7 +25,7 @@ Projects may include work using:
 |----------------------------|-----------------------------------------------------------------------------------|---------------------------|-----------------------------------------------------------------|
 | Arithmetic Calculator      | A modern, responsive calculator supporting basic math operations including GCD. | HTML, CSS, JavaScript     | [Arithmetic-Calculator](https://arithmeticcalculator.vercel.app/)          |
 | To-Do List                 | A sleek and interactive task manager with responsive UI and dynamic task handling. | HTML, CSS, JavaScript     | [To-Do-List](https://wonderful-tarsier-c79011.netlify.app/)            |
-| Weather App                | Real-time weather forecasting app using OpenWeather API with a warm orange/black UI. | HTML, CSS, JavaScript, API | [Weather-App](https://your-weather-app-link.netlify.app/)            |
+| Weather App                | Real-time weather forecasting app using OpenWeather API with a warm orange/black UI. | HTML, CSS, JavaScript, API | [Weather-App](https://mini-projects-one-lyart.vercel.app/)            |
 
 
 ---
