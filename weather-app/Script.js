@@ -15,8 +15,8 @@ async function checkfunction(cityName){
 
     cit.innerHTML = data.name;
     temp.innerHTML = data.main.temp;
-     humidity.innerHTML = data.main.humidity;
-    wind.innerHTML = data.wind.speed;
+    humidity.innerHTML = data.main.humidity + "%";
+    wind.innerHTML = data.wind.speed + "Km/hr";
 
 }
 
