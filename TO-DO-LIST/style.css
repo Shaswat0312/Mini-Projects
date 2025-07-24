@@ -21,6 +21,7 @@ body {
 .main {
   flex: 1;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -38,7 +39,7 @@ body {
   min-height: 150px;
 }
 
-/* Input + Button container */
+
 .uperr {
   display: flex;
   gap: 10px;
@@ -73,7 +74,7 @@ body {
   background-color: #00cba9;
 }
 
-/* Task List */
+
 .task {
   margin-top: 20px;
 }
@@ -111,7 +112,7 @@ body {
   opacity: 0.6;
 }
 
-/* Media Query */
+
 @media (max-width: 600px) {
   .head {
     font-size: 1.8rem;
@@ -143,4 +144,19 @@ body {
     margin-top: 8px;
     font-size: 0.95rem;
   }
+}
+
+.clear{
+
+  margin: 3rem;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #00ffc8;
+  color: #000;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00ffc8;
+  transition: all 0.3s ease;
 }
