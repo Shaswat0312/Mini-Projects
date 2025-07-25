@@ -13,10 +13,14 @@ async function checkfunction(cityName){
    const response = await fetch(`${apiUrl}&appid=${API_KEY}&q=${cityName}`);
     let data = await response.json()
 
-    cit.innerHTML = data.name;
-    temp.innerHTML = data.main.temp;
+    cit.innerHTML = data.name +","+data.sys.country;
+    temp.innerHTML = data.main.temp + "°C";
     humidity.innerHTML = data.main.humidity + "%";
     wind.innerHTML = data.wind.speed + "Km/hr";
+    val.value=""
+    val.placeholder="City.."
+
+    console.log(data.sys.country)
 
 }
 
