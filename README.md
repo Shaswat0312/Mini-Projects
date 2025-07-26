@@ -23,8 +23,9 @@ Projects may include work using:
 
 | 📌 **Project Name**         | 📝 **Description**                                                                 | ⚙️ **Tech Stack**         | 🌍 **Live Demo**                                                |
 |----------------------------|-----------------------------------------------------------------------------------|---------------------------|-----------------------------------------------------------------|
+| Joke Generator             | A fun and responsive joke app fetching random jokes using the ***Official Joke API***.                    | HTML, CSS, JavaScript, API    | [LOLgorithm](https://mini-projects-sw43.onrender.com/)        |
+| Weather App                | Real-time weather forecasting app using ***OpenWeather API*** with a warm orange/black UI. | HTML, CSS, JavaScript, API | [Weather-App](https://mini-projects-one-lyart.vercel.app/)            |
 | To-Do List                 | A sleek and interactive task manager with responsive UI and dynamic task handling. | HTML, CSS, JavaScript     | [To-Do-List](https://wonderful-tarsier-c79011.netlify.app/)            |
-| Weather App                | Real-time weather forecasting app using OpenWeather API with a warm orange/black UI. | HTML, CSS, JavaScript, API | [Weather-App](https://mini-projects-one-lyart.vercel.app/)            |
 | Arithmetic Calculator      | A modern, responsive calculator supporting basic math operations including GCD. | HTML, CSS, JavaScript     | [Arithmetic-Calculator](https://arithmeticcalculator.vercel.app/)          |
 
 
